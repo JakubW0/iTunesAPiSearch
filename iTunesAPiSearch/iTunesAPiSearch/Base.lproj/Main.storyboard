@@ -9,13 +9,13 @@
         <!--iTunes API-->
         <scene sceneID="Zi5-sJ-yuf">
             <objects>
-                <tableViewController id="J83-lQ-5sH" customClass="ITunesTableViewController" customModule="ITunesAPISearch" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="J83-lQ-5sH" customClass="ITunesTableViewController" customModule="CalendarificAPI" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="32" sectionFooterHeight="28" id="rSV-uu-YdL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="IfT-0f-bAg">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="146"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <searchBar contentMode="redraw" fixedFrame="YES" restorationIdentifier="searchBar" translatesAutoresizingMaskIntoConstraints="NO" id="Kpb-8N-YaT">
@@ -23,12 +23,16 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </searchBar>
+                                <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wv3-ya-fDJ">
+                                    <rect key="frame" x="0.0" y="44" width="406" height="96"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                </pickerView>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="khj-wA-Wcc" detailTextLabel="6uY-qc-TLk" imageView="nBt-5V-PMi" rowHeight="127" style="IBUITableViewCellStyleSubtitle" id="OAD-ec-DjS">
-                                <rect key="frame" x="0.0" y="72" width="414" height="127"/>
+                                <rect key="frame" x="0.0" y="174" width="414" height="127"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OAD-ec-DjS" id="GCt-mW-WI0">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="127"/>
@@ -64,6 +68,7 @@
                     <navigationItem key="navigationItem" title="iTunes API" id="uMB-d2-XDs"/>
                     <connections>
                         <outlet property="searchBar" destination="Kpb-8N-YaT" id="jtr-8j-aYd"/>
+                        <outlet property="sortList" destination="Wv3-ya-fDJ" id="7ih-Vr-Ic7"/>
                         <outlet property="tableView" destination="rSV-uu-YdL" id="SCg-Hr-gAa"/>
                     </connections>
                 </tableViewController>

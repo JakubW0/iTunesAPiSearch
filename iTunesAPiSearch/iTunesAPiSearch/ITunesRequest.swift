@@ -8,11 +8,19 @@ enum ITunesError: Error {
 
 struct ITunesRequest {
     let resourceURL: URL
-
     
-    init(name: String) {
-
-                let resourceString = "https://itunes.apple.com/search?term=\(name)&limit=5&mediaType=music"
+    init(name: String, intList: Int) {
+        var sort = "popular";
+        if(intList == 0){
+            sort = "popular"
+            print("recent robie")
+        }
+        else if( intList == 1){
+            sort = "recent"
+            print("robie popular")
+        }
+        
+                let resourceString = "https://itunes.apple.com/search?term=\(name)&limit=5&mediaType=music&sort=\(sort)"
 
         let replaced = resourceString.replacingOccurrences(of: " ", with: "+")
 
