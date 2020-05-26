@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BB21EB2D-BE10-41FF-BC82-7522275AA2E8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E16864F-1166-4192-9B86-F9B57177DE59"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CalendarificAPI/HolidayDataModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "HolidayDetail"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1680BA2A-33F3-4690-BCB2-71CCB9C8C15F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CalendarificAPI/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1680BA2A-33F3-4690-BCB2-71CCB9C8C15F - 711d05922d09d6fb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.player.getter : __C.AVAudioPlayer"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "1680BA2A-33F3-4690-BCB2-71CCB9C8C15F - 698f3a6be12b8ed3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.player.setter : __C.AVAudioPlayer"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "1680BA2A-33F3-4690-BCB2-71CCB9C8C15F - 9ce9fd553d365cfd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.player.modify : __C.AVAudioPlayer"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "1680BA2A-33F3-4690-BCB2-71CCB9C8C15F - d33fea5e5a837fbd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.player.modify : __C.AVAudioPlayer with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "1680BA2A-33F3-4690-BCB2-71CCB9C8C15F - 802b6aa2c6d134b6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CalendarificAPI.ViewController"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "1680BA2A-33F3-4690-BCB2-71CCB9C8C15F - c0534bb8dc7739bd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CalendarificAPI.ViewController&gt;"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC857619-7311-4BB6-B3C4-0952A2A89E53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CalendarificAPI/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CC857619-7311-4BB6-B3C4-0952A2A89E53 - 711d05922d09d6fb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.player.getter : __C.AVAudioPlayer"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "CC857619-7311-4BB6-B3C4-0952A2A89E53 - 698f3a6be12b8ed3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.player.setter : __C.AVAudioPlayer"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "CC857619-7311-4BB6-B3C4-0952A2A89E53 - 9ce9fd553d365cfd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.player.modify : __C.AVAudioPlayer"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "CC857619-7311-4BB6-B3C4-0952A2A89E53 - d33fea5e5a837fbd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.player.modify : __C.AVAudioPlayer with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "CC857619-7311-4BB6-B3C4-0952A2A89E53 - 802b6aa2c6d134b6"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CalendarificAPI.ViewController"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "CC857619-7311-4BB6-B3C4-0952A2A89E53 - c0534bb8dc7739bd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CalendarificAPI.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CalendarificAPI.ViewController&gt;"
+                  moduleName = "CalendarificAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kuba/Downloads/CalendarificAPI-master/CalendarificAPI/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

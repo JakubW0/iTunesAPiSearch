@@ -8,6 +8,7 @@ enum ITunesError: Error {
 
 struct ITunesRequest {
     let resourceURL: URL
+
     
     init(name: String, intList: Int) {
         var sort = "popular";

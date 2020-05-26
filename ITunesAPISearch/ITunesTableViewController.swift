@@ -3,25 +3,16 @@ import UIKit
 
 class ITunesTableViewController: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
-<<<<<<< HEAD
     @IBOutlet weak var sortList: UIPickerView!
-=======
-    @IBOutlet weak var sortList: UIPickerView! // sort bar
->>>>>>> cc8027f9c42774e5606a4d5cd927a8d3c388f2cb
 
     @IBOutlet weak var searchBar: UISearchBar!
     
     
     
     
-<<<<<<< HEAD
     var pickerData: [String] = ["Recent", "Popular"]
 
     var appp = [App]()
-=======
-    var pickerData: [String] = ["Recent", "Popular"] //type to sort
-
->>>>>>> cc8027f9c42774e5606a4d5cd927a8d3c388f2cb
     var listOfITunes = [App]() {
         didSet {
             DispatchQueue.main.async {
@@ -30,25 +21,18 @@ class ITunesTableViewController: UITableViewController, UIPickerViewDelegate, UI
             }
         }
     }
-<<<<<<< HEAD
     let viewController = ViewController()
   
-=======
->>>>>>> cc8027f9c42774e5606a4d5cd927a8d3c388f2cb
     override func viewDidLoad() {
         super.viewDidLoad()
         searchBar.delegate = self
      self.sortList.delegate = self
          self.sortList.dataSource = self
-<<<<<<< HEAD
     
     }
  
 
-=======
->>>>>>> cc8027f9c42774e5606a4d5cd927a8d3c388f2cb
     
-    }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listOfITunes.count
     }
@@ -81,10 +65,7 @@ class ITunesTableViewController: UITableViewController, UIPickerViewDelegate, UI
         cell.detailTextLabel?.text = app.trackCensoredName
         cell.imageView?.image = UIImage.init(url: app.artworkUrl100)
    
-<<<<<<< HEAD
 
-=======
->>>>>>> cc8027f9c42774e5606a4d5cd927a8d3c388f2cb
         return cell
     }
     
@@ -112,7 +93,6 @@ class ITunesTableViewController: UITableViewController, UIPickerViewDelegate, UI
     
 
 }
-
 // put the search bar delegate in an extension
 extension ITunesTableViewController : UISearchBarDelegate {
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -120,11 +100,7 @@ extension ITunesTableViewController : UISearchBarDelegate {
         
         guard let searchBarText = searchBar.text
             else {return}
-<<<<<<< HEAD
         let iTunesRequest = ITunesRequest(name: searchBarText, intList: sortList.selectedRow(inComponent: 0))
-=======
-        let iTunesRequest = ITunesRequest(name: searchBarText, intList: sortList.selectedRow(inComponent: 0)) // add sort
->>>>>>> cc8027f9c42774e5606a4d5cd927a8d3c388f2cb
         iTunesRequest.getITunes { [weak self] result in
             switch result {
             case .failure(let error):
@@ -134,12 +110,14 @@ extension ITunesTableViewController : UISearchBarDelegate {
             }
         }
     }
+
+    
+    
+    
+    
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> cc8027f9c42774e5606a4d5cd927a8d3c388f2cb
 extension UIImage {
     convenience init?(url: URL?) {
         guard let url = url else { return nil }

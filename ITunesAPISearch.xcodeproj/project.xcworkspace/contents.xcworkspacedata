@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iTunesAPiSearch.xcodeproj">
+      location = "self:/Users/kuba/Downloads/CalendarificAPI-master/ITunesAPISearch.xcodeproj">
    </FileRef>
 </Workspace>

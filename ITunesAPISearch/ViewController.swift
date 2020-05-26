@@ -100,9 +100,30 @@ class ViewController: UIViewController{
       }
          
     
-    func music(url: URL){
-    //muzyczka nie dziala, próbowałem x sposobów juz. wez tym linkiem wyzej pierw sprawdz zanim do api podlaczysz
-    }
+    func downloadSound(url: URL){
+    
+        
+            do{
+                    player = try AVPlayer(url: url)
+                    if(playMusic == false){
+                    
+                     player?.play()
+                        playMusic = true
+                    }
+                    else{
+                        player?.pause()
+                        playMusic = false
+                    }
+                
+            }
+            catch let err {
+                print(err.localizedDescription)
+                print("")
+              
+            }
+        }
+    
+ 
     
     
 }

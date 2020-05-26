@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  iTunesAPiSearch
-//
-//  Created by Kuba on 26/05/2020.
-//  Copyright © 2020 Kuba. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
